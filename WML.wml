@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.2//EN"
+"http://www.wapforum.org/DTD/wml12.dtd">
+<wml>
+<card title="Welcome" id="card01">
+<p align="center">
+WELCOME!<br/>
+ENTER YOUR ROLL NO<br/>
+<input name="text" emptyok="false" type="text" id="text01" maxlength="6" format="*N"/>
+<anchor>
+<go href="#card02"/>
+Go to report card!
+</anchor>
+</p>
+</card>
+<card title="MARKSHEET" id="card02">
+<p align="center">
+<img src="\fcritlogo.png" alt="LOGO" height="40px" width="40px"/>
+WELCOME TO REPORT CARD $(text)
+<table columns="3" align="LCR">
+	<tr>
+	  <td><b>Subject</b></td>
+	  <td><b>Marks</b></td>
+	  <td><b>Grade</b></td>
+	</tr>
+
+	<tr>
+	  <td>MCC</td>
+	  <td>95</td>
+	  <td>O</td>
+	</tr>
+
+	<tr>
+	  <td>SPCC</td>
+	  <td>90</td>
+	  <td>O</td>
+	</tr>
+<tr>
+	  <td>SE</td>
+	  <td>80</td>
+	  <td>A</td>
+	</tr>
+<tr>
+	  <td>DD</td>
+	  <td>90</td>
+	  <td>O</td>
+	</tr>
+</table>
+</p>
+</card>
+</wml>`
